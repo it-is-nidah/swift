@@ -12,3 +12,13 @@ func printTimesTable(number: Int) {
 printTimesTable(number: 10)
 
 ```
+
+```swift
+func printTimesTable(number: Int, end: Int) {
+    for i in 1...end {
+        print("\(number) * \(i) is \(number * i) ")
+    }
+}
+printTimesTable(number: 20, end: 40)
+
+```
