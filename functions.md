@@ -20,7 +20,6 @@ func printTimesTable(number: Int, end: Int) {
     }
 }
 printTimesTable(number: 20, end: 40)
-
 ```
 
 ### function to check if a string contains the same letters, regardless of their order.
@@ -43,3 +42,14 @@ print(result)
 func areLettersIdentical(string1: String, string2: String) -> Bool {
     return string1.sorted() == string2.sorted()
 }
+```
+
+### Function for pythagoras theorem
+
+```swift
+func findPythagoras(a: Double, b: Double) -> Double{
+    sqrt(a * a + b * b)
+}
+
+print(findPythagoras(a: 3, b: 4))
+```
