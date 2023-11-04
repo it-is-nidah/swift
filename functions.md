@@ -22,3 +22,24 @@ func printTimesTable(number: Int, end: Int) {
 printTimesTable(number: 20, end: 40)
 
 ```
+
+### function to check if a string contains the same letters, regardless of their order.
+
+```SWIFT
+// function to check if a string contains the same letters, regardless of their order.
+func checkString(name1: String, name2: String) -> Bool {
+    if name1.sorted() == name2.sorted() {
+        return true
+    }
+    return false
+}
+
+let result = checkString(name1: "lEo", name2: "olE")
+print(result)
+```
+
+```SWIFT
+// Another example.
+func areLettersIdentical(string1: String, string2: String) -> Bool {
+    return string1.sorted() == string2.sorted()
+}
